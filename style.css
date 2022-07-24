@@ -1,0 +1,35 @@
+.icon {
+  width: 30px;
+  height: 30px;
+}
+main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+h1 {
+  background-color: lightgray;
+  margin: 0;
+  padding-top: 15px;
+  height: 35px;
+}
+section {
+  border: 2px solid blue;
+  width: 40%;
+}
+article{
+margin: 4px;
+}
+#story {
+  border: 2px solid gray;
+}
+#btn1{
+width: 10%;
+border: none;
+border: 4px solid black;
+}
+#btn2{
+  width: 10%;
+  border: none;
+  border: 4px solid black;
+  }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <article id="story">
+          <h1>ההודעות שלכם שוות 19 מילארד דולר</h1>
+          <h4>עסקת ענק: פייסבוק רוכשת בסכום אסטרנומי של 19 מילארד דולרים</h4>
+          <p>
+            ענקית האינטרנט פייסבוק רוכשת את האפליקציית ווסטאפ הפופלארית תמורת
+            הסכום הדימיוני של 19 מילארד דולר מתוכם 4 מילארד במזומן, 12 מילארד
+            במניות ו-3 מילארד במניות חסומות שיפתחו במהלך הארבע שנים.
+          </p>
+          <a href="https://www.facebook.com/"
+            ><img
+              class="icon"
+              src="https://img.icons8.com/color/344/facebook.png"
+            />
+          </a>
+          <a href="https://www.whatsapp.com/"
+            ><img
+              class="icon"
+              src="https://img.icons8.com/color/344/whatsapp--v1.png"
+          /></a>
+        </article>
+        <article>
+          <button onclick="handleRating(id)" id="like">אהבתי</button>
+          <button onclick="handleRating(id)" id="unLike">לא אהבתי</button>
+          <p>(<i id="ratingLike">0</i>)אהבתי</p>
+          <p>(<i id="ratingUnLike">0</i>)לא אהבתי</p>
+        </article>
+      </section>
+      <div>
+       <input  id="txtRows" type="number" />txtRows
+       <input value="txtColumns" id="txtColumns" type="number" />txtColumns
+       <br>
+        <button onclick="handleTable()">Press</button>
+        <table id="table"></table>
+      </div>
+      <div>
+       <input id="txtRowsMulti" type="number"/> txtRowsMulti
+       <input id="txtColumnsMulti" type="number" />txtColumnsMulti
+        <button onclick="handleTableMulti()">Press</button>
+        <table id="tableMulti"></table>
+      </div>
+    </main>
+    <footer>  
+
+      <canvas
+        id="myCanvas"
+        width="680"
+        height="550"
+      ></canvas>
+      <button onclick="handleHappyFace(false)" id="btn1">שמח</button>
+<button onclick="handleSadFace(true)"id="btn2">עצוב</button>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
